@@ -36,7 +36,7 @@ Tech Stack:
 
 Installation:
 
-1. Clone the repository: git clone https://github.com/kirtii5/WanderLust.git
+1. Clone the repository: https://github.com/Aashish-Rathore/Wanderlust.git
 2. Install dependencies: npm install
 3. Start the server: npm start
 
