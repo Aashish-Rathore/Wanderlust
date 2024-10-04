@@ -9,8 +9,8 @@ Wanderlust is a web application designed for travel enthusiasts to explore new d
 Features:
 
 - User authentication and authorization using Passport.js
-- Image upload and storage using Multer and Cloudinary
-- Interactive maps using TomTom API
+- Image upload and storage using Multter and Cloudinary
+- Interactive maps using MapBox API
 - Responsive design using Bootstrap
 - Error handling for a seamless user experience
 
@@ -20,7 +20,7 @@ Tech Stack:
     - Node.js (runtime environment)
     - Express.js (web framework)
     - MongoDB (database)
-    - Multer (image upload middleware)
+    - Multter (image upload middleware)
     - Passport.js (authentication framework)
 - Frontend:
     - Bootstrap (CSS framework for responsive design)
