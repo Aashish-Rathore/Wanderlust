@@ -1,6 +1,6 @@
 **Wanderlust**
 
-https://wanderlust-weqc.onrender.com/listings
+https://wanderlust-oeql.onrender.com
 
 Project Description:
 
