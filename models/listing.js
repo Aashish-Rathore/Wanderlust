@@ -44,13 +44,15 @@ const listingSchema = new Schema({
       "rooms",
       "iconic cities",
       "castle",
-      "mountains ",
+      "mountain views",
       "camping",
-      "amazing pools",
+      "amazing nature",
       "farms",
       "arctic",
       "boats",
       "domes",
+      "amazing pools",
+
     ],
   },
 });
