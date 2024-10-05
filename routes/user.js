@@ -8,6 +8,12 @@ const { saveRedirectUrl } = require("../middleware");
 const userController = require("../controllers/users");
 
 router
+.route('/')
+.get((req,res)=>{
+  res.redirect('/listings')
+})
+
+router
 .route("/signup")
 .get(userController.renderSignupForm)
 .post(
