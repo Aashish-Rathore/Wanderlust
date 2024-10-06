@@ -116,8 +116,11 @@ module.exports.filter = async(req,res,next)=>{
 }
 
 module.exports.search = async (req, res) => {
-    let { location } = req.query;
-  
-    const allListings = await Listing.find({ location });
+    // let { location } = req.query;
+    console.log("Searching...");
+    const { place } =  req.query
+    console.log(req.query);
+    const allListings = await Listing.find({country:place });
+    console.log(allListings);
     res.render("./listings/index.ejs", { allListings });
 };

@@ -10,8 +10,6 @@ const upload = multer({storage});
 const listingController = require("../controllers/listings.js");
 const { route } = require("./user.js");
 
-
-
 router.get("/filter/:id",wrapAsync(listingController.filter));
 router.get("/search", wrapAsync(listingController.search));
 
