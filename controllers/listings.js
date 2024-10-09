@@ -2,19 +2,7 @@ const Listing = require("../models/listing");
 const mbxGeocoding = require('@mapbox/mapbox-sdk/services/geocoding');
 const Token = process.env.MAP_TOKEN;
 const geocodingClient = mbxGeocoding({accessToken : Token})
-// const mapToken = process.env.MAP_TOKEN;
-// var NodeGeocoder = require('node-geocoder');
-// var options = {
-//     provider: 'tomtom',
-  
-//     // Optionnal depending of the providers
-//     httpAdapter: 'https', // Default
-//     apiKey: mapToken, // for Mapquest, OpenCage, Google Premier
-//     formatter: null         // 'gpx', 'string', ...
-//   };
 
-//   const geocoder = NodeGeocoder(options);
-  
 
 module.exports.index = async (req, res) => {
     const allListings = await Listing.find({});
@@ -57,7 +45,7 @@ console.log(response.body.features[0].geometry);
     newlisting.image = {url , filename};
 
     newlisting.geometry = response.body.features[0].geometry;
-    console.log("from my side ",newlisting);
+   
     await newlisting.save();
     req.flash("success", "New listing created!");
     res.redirect("/listings");
