@@ -20,7 +20,7 @@ Tech Stack:
     - Node.js (runtime environment)
     - Express.js (web framework)
     - MongoDB (database)
-    - Multter (image upload middleware)
+    - Multer (image upload middleware)
     - Passport.js (authentication framework)
 - Frontend:
     - Bootstrap (CSS framework for responsive design)
