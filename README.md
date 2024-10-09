@@ -27,7 +27,7 @@ Tech Stack:
 - Image Storage:
     - Cloudinary (cloud-based image storage and management)
 - Maps:
-    - TomTom (API for interactive maps)
+    - MapBox (API for interactive maps)
 - Error Handling:
     - Custom error handling for a seamless user experience
 - Other Libraries and Tools:
